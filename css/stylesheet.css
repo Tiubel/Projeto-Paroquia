@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Inter|Montserrat|Open+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.page{
+    background-color: #F7E1AE;
+}
+
+.body {
+    background-color: #3C486B;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:#A4D0A4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.logo_coracao{
+    width: 10%;
+  
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 20px;
+}
+.main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    width: 400px;
+}
+.area-video {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.title-dizimista{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: 15%;  
+    text-align: center;   
+
+}
+
+.form button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.form button:hover {
+    background-color: #555;
+}
+
+.container{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(220de, #f8f6f6 0%, #c9cbce 74%);
+
+}
+a{
+    text-decoration: none;
+}
+.social-icons .btn {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+.social-icons .btn:hover{
+    width: 200px;
+
+}
+.social-icons .btn .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    color: black;
+    transition: all 0.3s ease-out;
+}
+.rodape{    
+    background-color: #A4D0A4;
+    height: 100%;
+}
+
+.logo-rodape{
+    display: flex;
+    margin:auto;
+    width: 105px;
+    height: 110px;
+    border-radius: 50%;   
+    
+}
+.copyright{
+    text-align: center;
+    margin:auto;
+    width: 455px;
+    
+    
+}
+
